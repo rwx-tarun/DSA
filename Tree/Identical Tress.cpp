@@ -1,4 +1,7 @@
-    bool f(TreeNode * p , TreeNode * q){
+TC - O(N)    
+SC - O(height of tree) - recursion stack space
+
+bool f(TreeNode * p , TreeNode * q){
         if(p == NULL || q == NULL){
             return p ==q ;
         }
