@@ -1,5 +1,5 @@
-TC - O(N)
-SC - O(N)
+TC - O(N)    
+SC - O(height of tree) - recursion stack space
 class Solution {
 public:
     int f(TreeNode* root) {
